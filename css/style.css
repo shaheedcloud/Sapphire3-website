@@ -215,3 +215,7 @@ form .btn-primary {
     text-align: center;
     font-size: 1.1rem;
 }
+.navbar-brand img.navbar-logo {
+    height: 50px;  /* Adjust as needed */
+    width: auto;
+}
