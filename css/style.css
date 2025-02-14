@@ -26,3 +26,31 @@ body {
 .container h2 {
     color: #00bcd4;
 }
+/* Styling for IT Services Page */
+.container h2 {
+    color: #00bcd4;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container p {
+    color: #ddd;
+    font-size: 16px;
+}
+
+.container {
+    padding: 40px 20px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #000 !important;
+}
+
+.navbar a {
+    color: #ffffff !important;
+}
+
+.navbar a:hover {
+    color: #00bcd4 !important;
+}
