@@ -185,3 +185,33 @@ form .btn-primary {
     background-color: #0056b3;
     border: none;
 }
+.store-header {
+    background: url('assets/lenovo-banner.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.store-section {
+    background: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.store-section h2 {
+    color: #0057b8;
+    text-align: center;
+}
+
+.store-section p {
+    text-align: center;
+    font-size: 1.1rem;
+}
