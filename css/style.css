@@ -14,12 +14,12 @@ body {
 }
 
 .navbar a {
-    color: white !important;
+    color: black !important;
     font-weight: bold;
 }
 
 .navbar a:hover {
-    color: white !important;
+    color: #00bcd4 !important;
 }
 
 .navbar-brand img.navbar-logo {
