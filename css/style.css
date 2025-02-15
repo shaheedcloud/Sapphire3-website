@@ -7,20 +7,15 @@ body {
 }
 
 /* Navbar Styling - Ensure White Background Across All Pages */
-.navbar {
-    background-color: white !important;
-    padding: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-
-/* Ensure the navbar background is always white */
-.navbar, 
-.navbar.navbar-dark, 
+.navbar,
+.navbar.navbar-dark,
 .navbar.navbar-light {
     background-color: white !important;
     padding: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Ensure navbar links are visible on a white background */
 .navbar a {
     color: black !important;
     font-weight: bold;
@@ -30,6 +25,7 @@ body {
     color: #00bcd4 !important;
 }
 
+/* Navbar Logo Styling */
 .navbar-brand img.navbar-logo {
     height: 120px; /* Adjust size */
     width: auto;
