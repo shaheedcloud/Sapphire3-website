@@ -11,6 +11,14 @@ body {
     background-color: white !important;
     padding: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+/* Ensure the navbar background is always white */
+.navbar, 
+.navbar.navbar-dark, 
+.navbar.navbar-light {
+    background-color: white !important;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar a {
