@@ -102,7 +102,7 @@ body {
 
 /* Store Page - Lenovo Store */
 .store-header {
-    background-color: #33BEFF; /* Blue header */
+    background-color: #33BEFF !important; /* Blue header */
     height: 300px;
     display: flex;
     align-items: center;
