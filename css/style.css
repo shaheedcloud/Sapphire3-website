@@ -48,6 +48,55 @@ body {
     padding: 50px;
     border-radius: 10px;
 }
+/* OUR CORE SERVICES (INDEX PAGE) */
+.core-services-container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.core-services-container h2 {
+    color: #33BEFF; /* Blue text for section title */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.core-services {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.service-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.service-card img {
+    width: 100px; /* Ensures images are not wider than the text */
+    height: auto;
+    border-radius: 10px; /* Soft rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Embossed effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card img:hover {
+    transform: scale(1.1); /* Slight enlargement on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Deeper shadow effect */
+}
+
+.service-card h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
 
 /* VIDEO BACKGROUND (INDEX PAGE) */
 .video-container {
