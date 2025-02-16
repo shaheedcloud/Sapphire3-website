@@ -234,3 +234,9 @@ body {
     transform: scale(1.1);
 }
 
+/* About Page */
+.about-header p {
+    max-width: 800px;  /* Adjust width to control line breaks */
+    margin: 0 auto;  /* Center text */
+    line-height: 1.6; /* Improve readability */
+}
